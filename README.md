@@ -31,4 +31,4 @@ If you are looking for a Vercel file, you can find it **[here](arhan-dev.vercel.
 
 ## License
 
-Licensed under the [MIT license](https://github.com/shahsagarm/sagarshah.dev/blob/main/LICENSE).
+Licensed under the [MIT license](LICENSE).
