@@ -27,7 +27,7 @@ $ npm run dev
 
 ## Vercel
 
-If you are looking for a Vercel file, you can find it **[here](https://www.https://arhan-dev.vercel.app/)**.
+If you are looking for a Vercel file, you can find it **[here](https://www.arhan-dev.vercel.app/)**.
 
 ## License
 
