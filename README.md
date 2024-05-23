@@ -19,15 +19,15 @@
 ## Running Locally
 
 ```bash
-$ git clone https://github.com/shahsagarm/sagarshah.dev.git
-$ cd sagarshah.dev
+$ git clone https://github.com/ARHAN70/Arhan.dev
+$ cd Arhan.dev
 $ npm install
 $ npm run dev
 ```
 
-## Figma
+## Vercel
 
-If you are looking for a figma file, you can find it **[here](https://www.figma.com/community/file/1262992249991763120/Personal-Portfolio-Website-Template-%7C-Mobile-%26-Desktop)**.
+If you are looking for a Vercel file, you can find it **[here](https://www.https://arhan-dev.vercel.app/)**.
 
 ## License
 
