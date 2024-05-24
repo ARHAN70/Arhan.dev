@@ -251,7 +251,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoGreenApexLight,
     logoAlt: 'Greenapex logo',
     position: 'Team Lead',
-    startDate: new Date(2023, 12),
+    startDate: new Date(2023, 1),
     endDate: new Date(2023, 2),
     summary: [
       'Acted as team lead in different projects.',
