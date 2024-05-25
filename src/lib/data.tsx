@@ -38,7 +38,7 @@ import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel.jpeg';
 
 import Projectlegalcorp from '/public/images/legalcorp.png';
 import Projectyoutheve from '/public/images/youtheve.png';
-import ProjectPepehousing from '/public/images/project-pepehousing.png';
+import projectteknoleed from '/public/images/teknoleed.png';
 
 import AvatarKrisztian from '/public/images/10.svg';
 import AvatarEugen from '/public/images/11.svg';
@@ -251,7 +251,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     darkModeLogo: LogoGreenApexLight,
     logoAlt: 'Greenapex logo',
     position: 'Team Lead',
-    startDate: new Date(2023, 1),
+    startDate: new Date(2022, 12),
     endDate: new Date(2023, 2),
     summary: [
       'Acted as team lead in different projects.',
@@ -274,9 +274,24 @@ export const EXPERIENCES: ExperienceDetails[] = [
 
 export const PROJECTS: ProjectDetails[] = [
   {
+    name: 'Teknoleed',
+    description:
+      'Elevate your brand with innovative marketing solutions. Our marketing agency website offers tailored strategies in SEO, content creation, social media, and more to drive growth and maximize your ROI.',
+    url: 'https://teknoleed.com',
+    previewImage: projectteknoleed,
+    technologies: [
+      'React',
+      'Next.js',
+      'Typescript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'Wordpress',
+    ],
+  },
+  {
     name: 'Youth Eve Media',
     description:
-      'A platform for comparing and finding affordable flights, as well as booking and purchasing tickets safely and easily in a few simple clicks.',
+      'Stay informed with the latest updates and in-depth analysis on current events, politics, entertainment, and more. Our news website delivers reliable and timely information to keep you in the know.',
     url: 'https://www.youthevemedia.com',
     previewImage: Projectyoutheve,
     technologies: [
@@ -294,7 +309,7 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Legalcorp',
     description:
-      'A platform for accessing real-time open banking and energy data to help you grow your business, backed with scalable back-end infrastructure.',
+      'Access expert legal advice and services tailored to your needs. Our legal consultation website connects you with experienced attorneys for personalized guidance on a wide range of legal issues.',
     url: 'https://legalcorp.co.in',
     previewImage: Projectlegalcorp,
     technologies: [
@@ -314,22 +329,6 @@ export const PROJECTS: ProjectDetails[] = [
       'Storybook',
     ],
   },
-  /*{
-    name: 'Pepehousing',
-    description:
-      'A platform for renting a flat or room in Poland. You may browse hundreds of verified deals, contact the vendor, and pay online in a simple and secure manner.',
-    url: 'https://pepehousing.com',
-    previewImage: ProjectPepehousing,
-    technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
-      'Redux Toolkit',
-      'React Query',
-      'Storybook',
-    ],
-  },*/
 ];
 export const TESTIMONIALS: TestimonialDetails[] = [
   {
