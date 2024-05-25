@@ -53,7 +53,7 @@ import {
 
 export const EXTERNAL_LINKS = {
   GITHUB: 'https://github.com/ARHAN70',
-  GITHUB_REPO: 'https://github.com/ARHAN70/ARHAN-Portfolio.git',
+  GITHUB_REPO: 'https://github.com/ARHAN70/Arhan.dev',
   TWITTER: '#',
   FIGMA: '#',
   INSTAGRAMICON:'https://www.instagram.com/arhan_akhtar_07?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==',
