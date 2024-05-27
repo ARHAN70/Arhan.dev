@@ -11,8 +11,8 @@ const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Arhan Akhtar | Full Stack Developer From Ranchi, India.';
 const description =
-  'A self-proclaimed designer who specializes in full stack development (React.js & Node.js), from Ahmedabad, India.';
-const url = 'https://sagarshah.dev';
+  'A self-proclaimed designer who specializes in Wordpress/Figma development, from Ranchi, India.';
+const url = 'https://arhanakhtar.vercel.app';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     'React Developer',
     'Next.js Developer',
   ],
-  creator: 'Sagar Shah',
+  creator: 'Arhan Akhtar',
   themeColor: [
     { media: '(prefers-color-scheme: light)', color: 'white' },
     { media: '(prefers-color-scheme: dark)', color: 'black' },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: title,
     images: [
       {
-        url: '/images/open-graph-sagar.png',
+        url: '/images/open-graph-arhan.png',
       },
     ],
   },
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title,
     description,
     creator: '@shahsagarm',
-    images: '/images/open-graph-sagar.png',
+    images: '/images/open-graph-arhan.png',
   },
   icons: {
     icon: '/favicon.ico',
