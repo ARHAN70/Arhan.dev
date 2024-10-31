@@ -278,14 +278,12 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'The Munificence',
     description:
-      'Elevate your brand with innovative marketing solutions. Our marketing agency website offers tailored strategies in SEO, content creation, social media, and more to drive growth and maximize your ROI.',
+      'The Munificence, your premier online destination for exquisite and unique home décor and lifestyle products. At The Munificence, we believe in the beauty of thoughtful design and the power of curated elegance. Our collection features a diverse array of high-quality items, from luxurious furnishings and art pieces to stylish accessories and personalized gifts. Each product is carefully selected to inspire and enhance your living space, reflecting a blend of timeless sophistication and modern flair. Discover the perfect pieces to elevate your home and express your personal style with The Munificence.',
     url: 'https://themunificence.com',
     previewImage: projectmunificence,
     technologies: [
-      'React',
-      'Next.js',
-      'Typescript',
-      'Tailwindcss',
+      'Elementor',
+      'Wp-Bakery',
       'Redux Toolkit',
       'Wordpress',
     ],
@@ -293,11 +291,15 @@ export const PROJECTS: ProjectDetails[] = [
   {
     name: 'Gulfscoop',
     description:
-      'Stay informed with the latest updates and in-depth analysis on current events, politics, entertainment, and more. Our news website delivers reliable and timely information to keep you in the know.',
+      'Gulf Scoop is a comprehensive online platform dedicated to delivering the latest news and updates from the Gulf region. Covering a wide range of topics including business, technology, lifestyle, and sports, Gulf Scoop provides its audience with timely and reliable information. Whether you're interested in regional developments or global events affecting the Gulf, Gulf Scoop is your go-to source for insightful articles and breaking news.',
     url: 'https://www.gulfscoop.com',
     previewImage: projectgulfscoop,
     technologies: [
       'Wordpress',
+      'Google SEO Kit'
+      'Elementor',
+      'Wp-Form',
+      'Firebase',
     ],
   },
   {
@@ -323,9 +325,8 @@ export const PROJECTS: ProjectDetails[] = [
     previewImage: Projectyoutheve,
     technologies: [
       'Wordpress',
-      'React',
-      'Typescript',
-      'React Bootstrap',
+      'Elementor',
+      'Wp-Form',
       'Firebase',
       'Express.js',
       'PostgreSQL',
