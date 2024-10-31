@@ -39,6 +39,8 @@ import LogoDotnpixelLight from '/public/images/logos/logo-dotnpixel.jpeg';
 import Projectlegalcorp from '/public/images/legalcorp.png';
 import Projectyoutheve from '/public/images/youtheve.png';
 import projectteknoleed from '/public/images/teknoleed.png';
+import projectgulfscoop from '/public/images/gulfscoop.png';
+import projectmunificence from '/public/images/munificence.png';
 
 import AvatarKrisztian from '/public/images/10.svg';
 import AvatarEugen from '/public/images/11.svg';
@@ -273,6 +275,31 @@ export const EXPERIENCES: ExperienceDetails[] = [
 ];
 
 export const PROJECTS: ProjectDetails[] = [
+  {
+    name: 'The Munificence',
+    description:
+      'Elevate your brand with innovative marketing solutions. Our marketing agency website offers tailored strategies in SEO, content creation, social media, and more to drive growth and maximize your ROI.',
+    url: 'https://themunificence.com',
+    previewImage: projectmunificence,
+    technologies: [
+      'React',
+      'Next.js',
+      'Typescript',
+      'Tailwindcss',
+      'Redux Toolkit',
+      'Wordpress',
+    ],
+  },
+  {
+    name: 'Gulfscoop',
+    description:
+      'Stay informed with the latest updates and in-depth analysis on current events, politics, entertainment, and more. Our news website delivers reliable and timely information to keep you in the know.',
+    url: 'https://www.gulfscoop.com',
+    previewImage: projectgulfscoop,
+    technologies: [
+      'Wordpress',
+    ],
+  },
   {
     name: 'Teknoleed',
     description:
