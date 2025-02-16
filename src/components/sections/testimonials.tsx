@@ -11,9 +11,9 @@ const TestimonialsSection = () => {
         <div className="self-center">
           <Tag label="Education" />
         </div>
-        <Typography variant="subtitle" className="max-w-xl text-center">
+{/*         <Typography variant="subtitle" className="max-w-xl text-center">
           Nice things people have said about me:
-        </Typography>
+        </Typography> */}
       </div>
 
       <div className="flex gap-12 max-md:flex-col md:max-lg:flex-wrap">
